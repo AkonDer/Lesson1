@@ -7,6 +7,13 @@ namespace Lesson1
         private static void Main()
         {
             Console.WriteLine("Hello World!");
+
+            MyClass myClass = new ()
+            {
+                Pro = 3
+            };
+
+            Console.WriteLine(myClass.Pro);
         }
     }
 
