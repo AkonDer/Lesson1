@@ -9,4 +9,9 @@ namespace Lesson1
             Console.WriteLine("Hello World!");
         }
     }
+
+    class MyClass
+    {
+        public int Pro { get; set; }
+    }
 }
